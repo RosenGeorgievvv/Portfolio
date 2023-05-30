@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from '../assets/hamburger_menu.png'
+import '../styles/navbar/navbar.css'
 
 const name = `<RosenGeorgiev className="dev" />`;
 
