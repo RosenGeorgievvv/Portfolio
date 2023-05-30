@@ -12,7 +12,7 @@
   position: fixed;
   align-items: center;
   gap: 20px;
-  color: #28363d;
+  color: #8cc1d6;
   z-index: 3;
   font-family: "Nunito", sans-serif;
 }
@@ -29,8 +29,8 @@
 .navbar .container .logo {
   width: 600px;
   cursor: pointer;
-  margin-left: 20px;
-  font-size: 1.8em;
+  margin-left: 5px;
+  font-size: 1.3em;
   font-weight: bold;
 }
 @media only screen and (max-width: 1300px) {
@@ -73,7 +73,7 @@
   display: flex;
   gap: 20px;
   list-style: none;
-  font-size: 1.8em;
+  font-size: 1.3em;
   margin-right: 30px;
   cursor: pointer;
 }
@@ -108,9 +108,9 @@
 }
 .navbar .container a {
   text-decoration: none;
-  color: #28363d;
+  color: #1a1a1a;
 }
 .navbar .container a:hover, .navbar .container a:focus {
-  color: #2f575d;
+  color: #40737b;
   text-decoration: underline;
 }/*# sourceMappingURL=navbar.css.map */
