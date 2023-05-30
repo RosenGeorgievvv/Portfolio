@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import HiIcon from '../assets/hi.png';
 import LocationIcon from '../assets/place.png';
 import LinkedInIcon from '../assets/linkedinIco.png';
+import GitHubIcon from '../assets/githubIco.png';
 
 function MainPage() {
     return (
@@ -20,6 +21,9 @@ function MainPage() {
                     </div>
                     <a href='https://www.linkedin.com/in/rosen-georgiev-253611180/'>
                         <img src={LinkedInIcon} className='social-icon' alt='linkedin icon' />
+                    </a>
+                    <a href='https://github.com/RosenGeorgievvv'>
+                        <img src={GitHubIcon} className='social-icon' alt='github icon' />
                     </a>
                 </div>
             </div>
