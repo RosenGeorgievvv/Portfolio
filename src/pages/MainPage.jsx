@@ -10,7 +10,6 @@ import JsIcon from '../assets/js.png';
 import ReactIcon from '../assets/react.png';
 import ThreeIcon from '../assets/three.png';
 import Avatar from '../assets/avatar.jpg';
-import BeeIcon from '../assets/bee.png';
 import BootstrapIcon from '../assets/bootstrap.png';
 
 
@@ -73,12 +72,73 @@ function MainPage() {
                         <img src={GitHubIcon} className='social-icon' alt='github icon' />
                     </a>
                     <div className='description'>Tech Stack:</div>
-                    <div className='tech-stack-box'>
-                        <div className='tech-stack-single-box' id='HTML' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                            <img src={HtmlIcon} className='tech-icon1' alt='html icon' />
+                    <div className="tech-stack-box">
+                        <div
+                            className="tech-stack-single-box"
+                            id="HTML"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={HtmlIcon} className="tech-icon1" alt="html icon" />
                             <span>{html ? "HTML" : ""}</span>
                         </div>
+                        <div
+                            className="tech-stack-single-box"
+                            id="CSS"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={CssIcon} className="tech-icon1" alt="css icon" />
+                            <span>{css ? "CSS/SCSS" : ""}</span>
+                        </div>
+                        <div
+                            className="tech-stack-single-box"
+                            id="JavaScript"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={JsIcon} className="tech-icon1" alt="js icon" />
+                            <span>{js ? "JavaScript" : ""}</span>
+                        </div>
+                        <div
+                            className="tech-stack-single-box"
+                            id="Bootstrap"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={BootstrapIcon} className="tech-icon2" alt="bootstrap icon" />
+                            <span>{boot ? "Bootstrap" : ""}</span>
+                        </div>
+                        <div
+                            className="tech-stack-single-box"
+                            id="React"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={ReactIcon} className="tech-icon2" alt="react icon" />
+                            <span>{react ? "React.js" : ""}</span>
+                        </div>
+                        <div
+                            className="tech-stack-single-box"
+                            id="Three.js"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <img src={ThreeIcon} className="tech-icon3" alt="three.js icon" />
+                            <span>{three ? "Three.js" : ""}</span>
+                        </div>
                     </div>
+                </div>
+                <div className='rightSide'>
+                    <Canvas>
+                        <OrbitControls enableZoom={false} />
+                        <ambientLight intensity={1} />
+                        <directionalLight position={(3,2,1)} />
+                        <Sphere args={[1,100,200]} scale={2.2}>
+                            <MeshDiscardMaterial color="blue" attach="material" distort={0.5} speed={2} />
+                        </Sphere>
+                    </Canvas>
+                    <img src={Avatar} className='avatar' alt='avatar' />
                 </div>
             </div>
         </div>
