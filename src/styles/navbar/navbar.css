@@ -1,73 +1,116 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-
-.container {
-    width: 100%;
-    background-color: #dee1dd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    align-items: center;
-    gap: 20px;
-    color: #28363d;
-    z-index: 3;
-    font-family: "Nunito", sans-serif;
+.navbar .container {
+  width: 100%;
+  background-color: #dee1dd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  gap: 20px;
+  color: #28363d;
+  z-index: 3;
+  font-family: "Nunito", sans-serif;
 }
-
-.hamburger-menu {
-    height: 20px;
-    padding: 15px;
+.navbar .container .hamburger-menu {
+  height: 20px;
+  padding: 15px;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .navbar .container .hamburger-menu {
+    display: block;
+  }
+}
+.navbar .container .logo {
+  width: 600px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1300px) {
+  .navbar .container .logo {
+    font-size: 1.5em;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .navbar .container .logo {
+    font-size: 1.2em;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .navbar .container .logo {
+    font-size: 1em;
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .navbar .container .logo {
+    font-size: 0.9em;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar .container .logo {
+    font-size: 1.1em;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbar .container .logo {
+    font-size: 0.8em;
+    width: 280px;
+  }
+}
+.navbar .container ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 1.8em;
+  margin-right: 30px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1300px) {
+  .navbar .container ul {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .navbar .container ul {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .navbar .container ul {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .navbar .container ul {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar .container ul {
     display: none;
+  }
 }
-@media only screen and (max-width: 768px){
-    .navbar .container .hamburger-menu{
-        display: block;
-    }
+.navbar .container li {
+  padding-left: 20px;
+  font-family: "Nunito", sans-serif;
 }
-.navbar .container .logo{
-    width: 600px;
-    margin-left:20px;
-    font-size: 1.8em;
-    font-weight: bold;
-    cursor: pointer;
+.navbar .container a {
+  text-decoration: none;
+  color: #28363d;
 }
-@media only screen and (max-width: 1300px){
-    .navbar .container .logo{
-        width: 500px;
-        font-size: 1.5em;
-    }
-}
-@media only screen and (max-width: 1110px){
-    .navbar .container .logo{
-        font-size: 1.2em;
-        width: 400px;
-    }
-}
-@media only screen and (max-width: 950px){
-    .navbar .container .logo{
-        font-size: 1em;
-        width: 330px;
-    }
-}
-@media only screen and (max-width: 820px){
-    .navbar .container .logo{
-        font-size: 0.9em;
-        width: 300px;
-    }
-}
-@media only screen and (max-width: 768px){
-    .navbar .container .logo{
-        font-size: 1.1em;
-        width: 400px;
-    }
-}
-@media only screen and (max-width: 500px){
-    .navbar .container .logo{
-        font-size: 0.8em;
-        width: 200px;
-    }
-}
+.navbar .container a:hover, .navbar .container a:focus {
+  color: #2f575d;
+  text-decoration: underline;
+}/*# sourceMappingURL=navbar.css.map */
