@@ -108,9 +108,9 @@
 }
 .navbar .container a {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #28363d;
 }
 .navbar .container a:hover, .navbar .container a:focus {
   color: #40737b;
   text-decoration: underline;
-}/*# sourceMappingURL=navbar.css.map */
+}
