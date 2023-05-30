@@ -8,13 +8,13 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='container'>
-                <a href='/home'>
+                <a href='/'>
                     <div className='logo'>{name}</div>
                 </a>
                 <img src={Menu} className='hamburger-menu' />
                 <ul>
                     <li>
-                        <a href='/home'>Home</a>
+                        <a href='/'>Home</a>
                     </li>
                     <li>
                         <a href="/aboutme">About me</a>
