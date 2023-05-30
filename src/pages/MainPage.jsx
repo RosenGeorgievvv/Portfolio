@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import HiIcon from '../assets/hi.png';
 import LocationIcon from '../assets/place.png';
 import LinkedInIcon from '../assets/linkedinIco.png';
 import GitHubIcon from '../assets/githubIco.png';
 
+import { OrbitControls, Sphere, MeshDiscardMaterial } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import { useState } from 'react';
+
+
+
+
 function MainPage() {
+
+    const [html, setHtml] = useState('');
+    const [css, setCss] = useState('');
+    const [js, setJs] = useState('');
+    const [react, setReact] = useState('');
+
+
+    
+
     return (
         <div className='main' id='home'>
             <Navbar />
@@ -25,6 +41,10 @@ function MainPage() {
                     <a href='https://github.com/RosenGeorgievvv'>
                         <img src={GitHubIcon} className='social-icon' alt='github icon' />
                     </a>
+                    <div className='description'>Tech Stack:</div>
+                    <div className='tech-stack-box'>
+                        <div className='tech-stack-single-box' id='HTML' onMouseEnter={handleMouseEnter}
+                    </div>
                 </div>
             </div>
         </div>
