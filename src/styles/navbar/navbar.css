@@ -23,3 +23,21 @@
     padding: 15px;
     display: none;
 }
+@media only screen and (max-width: 768px){
+    .navbar .container .hamburger-menu{
+        display: block;
+    }
+}
+.navbar .container .logo{
+    width: 600px;
+    margin-left:20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1300px){
+    .navbar .container .logo{
+        width: 500px;
+        font-size: 1.5em;
+    }
+}
