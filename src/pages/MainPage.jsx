@@ -29,17 +29,17 @@ function MainPage() {
     const [three, setThree] = useState('');
 
     const handleMouseEnter = (e) => {
-        if (e.target.id == "HTML") {
+        if (e.target.id === "HTML") {
             setHtml(true);
-        } else if (e.target.id == "CSS") {
+        } else if (e.target.id === "CSS") {
             setCss(true);
-        } else if (e.target.id == "JavaScript") {
+        } else if (e.target.id === "JavaScript") {
             setJs(true);
-        } else if (e.target.id == "Bootstrap") {
+        } else if (e.target.id === "Bootstrap") {
             setBoot(true);
-        } else if (e.target.id == "React") {
+        } else if (e.target.id === "React") {
             setReact(true);
-        } else if (e.target.id == "Three.js") {
+        } else if (e.target.id === "Three.js") {
             setThree(true);
         };
     }

@@ -11,7 +11,7 @@ function Navbar() {
                 <a href='/'>
                     <div className='logo'>{name}</div>
                 </a>
-                <img src={Menu} className='hamburger-menu' />
+                <img src={Menu} className='hamburger-menu' alt='hamburger menu' />
                 <ul>
                     <li>
                         <a href='/'>Home</a>
