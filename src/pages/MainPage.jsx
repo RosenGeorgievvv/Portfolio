@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/main/main.css';
 import Navbar from '../components/Navbar';
 import HiIcon from '../assets/hi.png';
 import LocationIcon from '../assets/place.png';
@@ -11,7 +12,6 @@ import ReactIcon from '../assets/react.png';
 import ThreeIcon from '../assets/three.png';
 import Avatar from '../assets/avatar.jpg';
 import BootstrapIcon from '../assets/bootstrap.png';
-import '../styles/main/main.css';
 import { OrbitControls, Sphere, MeshDiscardMaterial } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
