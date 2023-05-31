@@ -11,7 +11,7 @@ import ReactIcon from '../assets/react.png';
 import ThreeIcon from '../assets/three.png';
 import Avatar from '../assets/avatar.jpg';
 import BootstrapIcon from '../assets/bootstrap.png';
-
+import '../styles/main/main.css';
 import { OrbitControls, Sphere, MeshDiscardMaterial } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
