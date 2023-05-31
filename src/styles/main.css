@@ -213,11 +213,11 @@ html code {
     }
 }
 .avatar {
-    width: 20em;
-    height: 20em;
+    width: 18em;
+    height: 18em;
     border-radius: 50%;
     border: 1px solid #28363d;
     position: absolute;
     margin-left: 1100px;
-    margin-bottom: 850px;
+    margin-bottom: 800px;
 }

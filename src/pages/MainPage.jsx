@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/main/main.css';
+import '../styles/main.css';
 import Navbar from '../components/Navbar';
 import HiIcon from '../assets/hi.png';
 import LocationIcon from '../assets/place.png';
@@ -60,7 +60,7 @@ function MainPage() {
                     <img src={HiIcon} className='hello-icon' alt='hello icon' />
                     <div className='description'>
                         Hi, I'm Rosen Georgiev. A passionate Front-end React Developer based in Sofia, Bulgaria.
-                        <a href='/contact'>
+                        <a href='https://goo.gl/maps/2XwKwV5KWzjSNi589'>
                             <img src={LocationIcon} className='localization-icon' alt='localization icon' />
                         </a>
                     </div>
@@ -132,8 +132,8 @@ function MainPage() {
                     <Canvas>
                         <OrbitControls enableZoom={false} />
                         <ambientLight intensity={1} />
-                        <directionalLight position={(3,2,1)} />
-                        <Sphere args={[1,100,200]} scale={2.2}>
+                        <directionalLight position={(3, 2, 1)} />
+                        <Sphere args={[1, 100, 200]} scale={2.2}>
                             <MeshDiscardMaterial color="blue" attach="material" distort={0.5} speed={2} />
                         </Sphere>
                     </Canvas>
