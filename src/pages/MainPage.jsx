@@ -16,8 +16,6 @@ import { OrbitControls, Sphere, MeshDiscardMaterial } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
 
-
-
 function MainPage() {
 
     const [html, setHtml] = useState('');
@@ -58,7 +56,7 @@ function MainPage() {
                 <div className='leftSide'>
                     <span className='title'>Front-End React Developer</span>
                     <img src={HiIcon} className='hello-icon' alt='hello icon' />
-                    <div className='description'>
+                    <div className='main-description'>
                         Hi, I'm Rosen Georgiev. A passionate Front-end React Developer based in Sofia, Bulgaria.
                         <a href='https://goo.gl/maps/2XwKwV5KWzjSNi589'>
                             <img src={LocationIcon} className='localization-icon' alt='localization icon' />
@@ -70,7 +68,7 @@ function MainPage() {
                     <a href='https://github.com/RosenGeorgievvv'>
                         <img src={GitHubIcon} className='social-icon' alt='github icon' />
                     </a>
-                    <div className='description'>Tech Stack:</div>
+                    <div className='main-description'>Tech Stack:</div>
                     <div className="tech-stack-box">
                         <div
                             className="tech-stack-single-box"
