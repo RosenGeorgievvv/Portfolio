@@ -42,5 +42,9 @@
     overflow-clip-margin: content-box;
     margin-top: 0px;
     transform: translateY(0%);
-    transition: transform 10s ease-in-out 0s;
+    transition: transform 1s ease-in-out 0s;
 }
+.img:hover, .img:focus {
+    transform: translateY(-10%);
+    transition: transform 1s ease-in-out 0s;
+  }
