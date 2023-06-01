@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../styles/firstproject.css'
 import image from '../assets/expenses.JPG';
 import CssIcon from '../assets/css.png'
 import ReactIcon from '../assets/react.png'
@@ -15,13 +16,13 @@ function FirstProject() {
             setCss(true);
         } else if (e.target.id === "React") {
             setReact(true);
-        };
-    }
-        const handleMouseLeave = () => {
-            setCss();
-            setReact();
-        };
-    
+        }
+    };
+    const handleMouseLeave = () => {
+        setCss();
+        setReact();
+    };
+
     return (
         <div className='project-box'>
             <div className='leftSide'>

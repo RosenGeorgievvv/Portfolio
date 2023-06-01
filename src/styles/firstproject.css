@@ -1,0 +1,25 @@
+.project-box {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    background-color: #dee1dd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #28363d;
+    padding: 20px;
+  }
+  @media only screen and (max-width: 1300px) {
+     .project-box {
+      padding: 15px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+     .project-box {
+      padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+     .project-box {
+      padding: 5px;
+    }
+  }
