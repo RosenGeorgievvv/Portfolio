@@ -16,6 +16,7 @@ function Projects() {
                 <SecondProject />
                 <ThirdProject />
             </div>
+
         </div>
     )
 }
