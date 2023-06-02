@@ -36,7 +36,7 @@
     border-radius: 20px;
 }
 
-.img {
+.third-img {
     width: 100%;
     overflow: clip;
     overflow-clip-margin: content-box;
@@ -46,40 +46,40 @@
     
 }
 
-.img:hover,
-.img:focus {
+.third-img:hover,
+.third-img:focus {
     transform: translateY(-3%);
     transition: transform 0.6s ease-in-out 0s;
 }
 
 @media only screen and (max-width: 1300px) {
 
-    .img:hover,
-    .img:focus {
+    .third-img:hover,
+    .third-img:focus {
         transform: translateY(-70.5%);
     }
 }
 
 @media only screen and (max-width: 950px) {
 
-    .img:hover,
-    .img:focus {
+    .third-img:hover,
+    .third-img:focus {
         transform: translateY(-60.5%);
     }
 }
 
 @media only screen and (max-width: 768px) {
 
-    .img:hover,
-    .img:focus {
+    .third-img:hover,
+    .third-img:focus {
         transform: translateY(-50.5%);
     }
 }
 
 @media only screen and (max-width: 500px) {
 
-    .img:hover,
-    .img:focus {
+    .third-img:hover,
+    .third-img:focus {
         transform: translateY(-40.5%);
     }
 }
