@@ -70,17 +70,17 @@
     align-items: center;
   }
   @media only screen and (max-width: 1300px) {
-    .section-about .aboutme-container .description .text {
+    .text {
       font-size: 1.6em;
     }
   }
   @media only screen and (max-width: 768px) {
-    .section-about .aboutme-container .description .text {
+    .text {
       font-size: 1.5em;
     }
   }
   @media only screen and (max-width: 500px) {
-    .section-about .aboutme-container .description .text {
+    .text {
       font-size: 1em;
     }
   }

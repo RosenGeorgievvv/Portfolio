@@ -3,7 +3,7 @@
   justify-content: center;
   width: 100%;
 }
-.navbar .container {
+.container {
   width: 100%;
   background-color: #dee1dd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -16,17 +16,17 @@
   z-index: 3;
   font-family: "Nunito", sans-serif;
 }
-.navbar .container .hamburger-menu {
+.hamburger-menu {
   height: 20px;
   padding: 15px;
   display: none;
 }
 @media only screen and (max-width: 768px) {
-  .navbar .container .hamburger-menu {
+  .hamburger-menu {
     display: block;
   }
 }
-.navbar .container .logo {
+.logo {
   width: 600px;
   cursor: pointer;
   margin-left: 20px;
@@ -34,37 +34,37 @@
   font-weight: bold;
 }
 @media only screen and (max-width: 1300px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 1.5em;
     width: 500px;
   }
 }
 @media only screen and (max-width: 1110px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 1.2em;
     width: 400px;
   }
 }
 @media only screen and (max-width: 950px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 1em;
     width: 330px;
   }
 }
 @media only screen and (max-width: 820px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 0.9em;
     width: 300px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 1.1em;
     width: 400px;
   }
 }
 @media only screen and (max-width: 500px) {
-  .navbar .container .logo {
+  .logo {
     font-size: 0.8em;
     width: 280px;
   }
@@ -78,39 +78,39 @@
   cursor: pointer;
 }
 @media only screen and (max-width: 1300px) {
-  .navbar .container ul {
+  .container ul {
     font-size: 1.5em;
   }
 }
 @media only screen and (max-width: 1110px) {
-  .navbar .container ul {
+  .container ul {
     font-size: 1.2em;
   }
 }
 @media only screen and (max-width: 950px) {
-  .navbar .container ul {
+  .container ul {
     font-size: 1em;
   }
 }
 @media only screen and (max-width: 820px) {
-  .navbar .container ul {
+  .container ul {
     font-size: 0.9em;
   }
 }
 @media only screen and (max-width: 768px) {
-  .navbar .container ul {
+  .container ul {
     display: none;
   }
 }
-.navbar .container li {
+.container li {
   padding-left: 20px;
   font-family: "Nunito", sans-serif;
 }
-.navbar .container a {
+.container a {
   text-decoration: none;
   color: #28363d;
 }
-.navbar .container a:hover, .navbar .container a:focus {
+.container a:hover, .container a:focus {
   color: #2f575d;
   text-decoration: underline;
-}/*# sourceMappingURL=navbar.css.map */
+}

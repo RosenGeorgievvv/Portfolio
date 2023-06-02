@@ -30,7 +30,7 @@ html code {
 }
 
 @media only screen and (max-width: 1300px) {
-    .main .main-container {
+   .main-container {
         flex-direction: column;
         width: 100%;
         margin-top: 100px;
@@ -42,7 +42,7 @@ html code {
 }
 
 @media only screen and (max-width: 1300px) {
-    .main .main-container .leftSide-container {
+    .leftSide-container {
         width: 100%;
     }
 }
@@ -54,19 +54,19 @@ html code {
 }
 
 @media only screen and (max-width: 1000px) {
-    .main .main-container .leftSide-container .title {
+    .title {
         font-size: 1.5em;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .title {
+    .title {
         font-size: 1.3em;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .main .main-container .leftSide-container .title {
+    .title {
         font-size: 1.2em;
     }
 }
@@ -77,7 +77,7 @@ html code {
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .hello-icon {
+    .hello-icon {
         width: 30px;
     }
 }
@@ -88,7 +88,7 @@ html code {
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .localization-icon {
+    .localization-icon {
         width: 20px;
     }
 }
@@ -101,13 +101,13 @@ html code {
 }
 
 @media only screen and (max-width: 1300px) {
-    .main .main-container .leftSide-container .description {
+    .description {
         width: 80%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .description {
+    .description {
         font-size: 1.3em;
     }
 }
@@ -121,8 +121,8 @@ html code {
     transition: 0.3s ease-in-out;
 }
 
-.main .main-container .leftSide-container .social-icon:hover,
-.main .main-container .leftSide-container .social-icon:focus {
+.social-icon:hover,
+.social-icon:focus {
     filter: grayscale(0);
     transform: scale(1.2);
 }
@@ -147,14 +147,14 @@ html code {
 }
 
 @media only screen and (max-width: 1110px) {
-    .main .main-container .leftSide-container .tech-stack-box .tech-stack-single-box {
+    .tech-stack-single-box {
         width: 60px;
         height: 60px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .tech-stack-box .tech-stack-single-box {
+    .tech-stack-single-box {
         margin-top: 10px;
     }
 }
@@ -166,7 +166,7 @@ html code {
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .tech-stack-box .tech-icon1 {
+    .tech-icon1 {
         width: 40px;
     }
 }
@@ -177,7 +177,7 @@ html code {
 }
 
 @media only screen and (max-width: 768px) {
-    .main .main-container .leftSide-container .tech-stack-box .tech-icon2 {
+    .tech-icon2 {
         width: 50px;
     }
 }
