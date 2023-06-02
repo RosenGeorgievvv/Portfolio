@@ -48,7 +48,6 @@ function FirstProject() {
                     <a href="https://github.com/RosenGeorgievvv/expense-tracker" target="blank"
                     >
                         <img src={GitHubIcon} className="liveIcon" alt="github icon" />
-                        <span>GitHub</span>
                     </a>
                 </div>
             </div>

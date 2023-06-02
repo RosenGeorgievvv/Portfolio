@@ -10,19 +10,19 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .project-box {
+    .project-box .lefSide {
         padding: 15px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .project-box {
+    .project-box .lefSide {
         padding: 10px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .project-box {
+    .project-box .lefSide {
         padding: 5px;
     }
 }
@@ -82,15 +82,49 @@
         transform: translateY(-40.5%);
     }
 }
+
 .rightSide {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .rightSide h1 {
     margin: 20px 100px 30px 110px;
-  }
+}
+
+@media only screen and (max-width: 1300px) {
+    .rightSide h1 {
+        font-size: 1.5em;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .rightSide h1 {
+        font-size: 1.3em;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .rightSide h1 {
+        font-size: 1.2em;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .rightSide h1 {
+        font-size: 1em;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
+}
 
 .rightSide .description {
     margin: 0px 100px 0px 100px;
@@ -106,22 +140,24 @@
 }
 
 @media only screen and (max-width: 950px) {
-    .description {
+    .rightSide .description {
         font-size: 1em;
+        margin: 0px 10px 0px 40px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .description {
-        font-size: 0.8em;
+    .rightSide.description {
+        font-size: 0.5em;
         margin: 0px 10px 0px 10px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .description {
-        font-size: 0.7em;
-        margin: 0px 10px 0px 10px;
+    .rightSide .description {
+        font-size: 0.8em;
+        margin: 0px 10px 0px 30px;
+        
     }
 }
 
