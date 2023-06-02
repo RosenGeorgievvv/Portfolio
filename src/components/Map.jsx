@@ -14,7 +14,7 @@ const Map = () => {
     {
       markerOffset: -25,
       name: "Sofia, Bulgaria",
-      coordinates: [42.6977, 23.3219],
+      coordinates: [23.50, 42.70],
     },
   ];
 
@@ -22,8 +22,8 @@ const Map = () => {
     <ComposableMap
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
-        rotate: [-10.0, -52.0, 0],
-        center: [-5, -3],
+        rotate: [-11.0, -52.0, 0],
+        center: [5, -3],
         scale: 1100,
       }}
       style={{
@@ -45,7 +45,7 @@ const Map = () => {
       </Geographies>
       {markers.map(({ name, coordinates, markerOffset }) => (
         <Marker key={name} coordinates={coordinates}>
-          <circle r={10} fill="#F00" stroke="#fff" strokeWidth={1} />
+          <circle r={8} fill="#F00" stroke="#fff" strokeWidth={1} />
           <text
             textAnchor="middle"
             y={markerOffset}

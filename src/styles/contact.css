@@ -1,0 +1,121 @@
+.section-contact {
+    padding-top: 150px;
+    height: 90vh;
+  }
+  .contact-container {
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    margin-right: 0px;
+  }
+  @media only screen and (max-width: 1300px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  }
+.contact-rightSide {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    margin-right: 0px;
+  }
+  @media only screen and (max-width: 1300px) {
+  .contact-rightSide {
+      display: none;
+    }
+  }
+.contact-leftSide {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #28363d;
+    margin-left: 10%;
+  }
+  @media only screen and (max-width: 1300px) {
+    .contact-leftSide {
+      width: 90%;
+      margin-left: 0%;
+    }
+  }
+  .contact-leftSide form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-leftSide form input {
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #28363d;
+    border: 2px solid #28363d;
+    background-color: #dee1dd;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .contact-leftSide form textarea {
+    border-radius: 20px;
+    color: #28363d;
+    border: 2px solid #28363d;
+    background-color: #dee1dd;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .contact-leftSide form button {
+    height: 40px;
+    border-radius: 20px;
+    color: #dee1dd;
+    border: 2px solid #28363d;
+    background-color: #28363d;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .contact-leftSide form span {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+ .contact {
+    margin-top: 20px;
+    color: #28363d;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 768px) {
+     .contact {
+      font-size: 1em;
+    }
+  }
+   .contact span {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+   .contact img {
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+   .contact a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #28363d;
+    transition: 0.5s ease-in-out;
+    
+  }
+   .contact a:hover, .contact a:focus {
+    color: #2f575d;
+  }

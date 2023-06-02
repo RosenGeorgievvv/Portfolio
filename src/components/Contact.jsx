@@ -42,8 +42,9 @@ return (
                 <div className='contact'>
                     <span>
                         <img src={MailIcon} /> Or text me at:
+                        <a href='mailto:rosengeorgiew1@gmail.com' target='blank'>rosengeorgiew1@gmail.com</a>
                     </span>
-                    <a href='mailto:rosengeorgiew1@gmail.com' target='blank'>rosengeorgiew1@gmail.com</a>
+                    
                 </div>
             </div>
             <div className='contact-rightSide'>
