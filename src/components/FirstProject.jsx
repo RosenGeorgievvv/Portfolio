@@ -32,6 +32,7 @@ function FirstProject() {
                 <h1>Expenses Tracker</h1>
                 <div className='description'>
                     "Expenses Tracker" is a website where the user can trace his expenses based on income and outcome.
+                    You can enter any item and the amount. Also, you can see the total balance calculated at any time after every operation.
                 </div>
                 <div className='tech-box'>
                     <div className='single-box' id='React' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

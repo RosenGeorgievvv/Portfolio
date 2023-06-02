@@ -53,7 +53,7 @@ function MainPage() {
         <div className='main' id='home'>
             <Navbar />
             <div className='main-container'>
-                <div className='leftSide'>
+                <div className='leftSide-container'>
                     <span className='title'>Front-End React Developer</span>
                     <img src={HiIcon} className='hello-icon' alt='hello icon' />
                     <div className='main-description'>
@@ -115,18 +115,9 @@ function MainPage() {
                             <img src={ReactIcon} className="tech-icon2" alt="react icon" />
                             <span>{react ? "React.js" : ""}</span>
                         </div>
-                        <div
-                            className="tech-stack-single-box"
-                            id="Three.js"
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            <img src={ThreeIcon} className="tech-icon3" alt="three.js icon" />
-                            <span>{three ? "Three.js" : ""}</span>
-                        </div>
                     </div>
                 </div>
-                <div className='rightSide'>
+                <div className='rightSide-container'>
                     <Canvas>
                         <OrbitControls enableZoom={false} />
                         <ambientLight intensity={1} />
