@@ -48,7 +48,6 @@ function ThirdProject() {
           <a href="https://github.com/RosenGeorgievvv/react-calculator" target="blank"
           >
             <img src={GitHubIcon} className="liveIcon" alt="github icon" />
-            <span>GitHub</span>
           </a>
         </div>
       </div>

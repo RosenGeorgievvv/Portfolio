@@ -45,7 +45,6 @@ function SecondProject() {
           <a href="https://github.com/RosenGeorgievvv/movie-land" target="blank"
           >
             <img src={GitHubIcon} className="liveIcon" alt="github icon" />
-            <span>GitHub</span>
           </a>
         </div>
       </div>
