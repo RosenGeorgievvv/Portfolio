@@ -98,9 +98,15 @@
     font-size: 1.2em;
     text-align: justify;
 }
-
 @media only screen and (max-width: 1300px) {
-    .third-rightSide .third-rightSide h1 .description {
+    .third-rightSide h1 {
+        font-size: 1.2em;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .third-rightSide .description {
         font-size: 1.2em;
         margin: 0px 20px 0px 20px;
         text-align: center;
@@ -108,14 +114,14 @@
 }
 
 @media only screen and (max-width: 950px) {
-    .third-rightSide .third-rightSide h1 .description {
+    .third-rightSide .description {
         font-size: 1em;
         margin: 0px 10px 0px 80px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-   .third-rightSide .third-rightSide h1 .description {
+   .third-rightSide .description {
         font-size: 1em;
         margin: 0px 10px 0px 60px;
     }
