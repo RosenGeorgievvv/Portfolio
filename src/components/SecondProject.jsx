@@ -49,7 +49,7 @@ function SecondProject() {
         </div>
       </div>
       <div className='second-leftSide'>
-        <img src={image} className='img' />
+        <img src={image} className='img' alt='' />
       </div>
     </div>
   )

@@ -41,7 +41,7 @@ return (
                 </form>
                 <div className='contact'>
                     <span>
-                        <img src={MailIcon} /> Or text me at:
+                        <img src={MailIcon} alt='' /> Or text me at:
                         <a href='mailto:rosengeorgiew1@gmail.com' target='blank' rel="noopener noreferrer" >rosengeorgiew1@gmail.com</a>
                     </span>
                     

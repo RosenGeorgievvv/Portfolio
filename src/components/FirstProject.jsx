@@ -26,7 +26,7 @@ function FirstProject() {
     return (
         <div className='project-box'>
             <div className='leftSide'>
-                <img src={image} className='img' />
+                <img src={image} className='img' alt=''/>
             </div>
             <div className='rightSide'>
                 <h1>Expenses Tracker</h1>

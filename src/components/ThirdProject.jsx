@@ -26,7 +26,7 @@ function ThirdProject() {
   return (
     <div className='project-box'>
       <div className='third-leftSide'>
-        <img src={image} className='third-img' />
+        <img src={image} className='third-img' alt='' />
       </div>
       <div className='third-rightSide'>
         <h1>Calculator</h1>

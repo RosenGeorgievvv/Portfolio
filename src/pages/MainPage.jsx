@@ -9,7 +9,6 @@ import HtmlIcon from '../assets/html.png';
 import CssIcon from '../assets/css.png';
 import JsIcon from '../assets/js.png';
 import ReactIcon from '../assets/react.png';
-import ThreeIcon from '../assets/three.png';
 import Avatar from '../assets/avatar.jpg';
 import BootstrapIcon from '../assets/bootstrap.png';
 import { OrbitControls, Sphere, MeshDiscardMaterial } from '@react-three/drei';
@@ -23,7 +22,7 @@ function MainPage() {
     const [js, setJs] = useState('');
     const [react, setReact] = useState('');
     const [boot, setBoot] = useState('');
-    const [three, setThree] = useState('');
+
 
     const handleMouseEnter = (e) => {
         if (e.target.id === "HTML") {
@@ -36,9 +35,7 @@ function MainPage() {
             setBoot(true);
         } else if (e.target.id === "React") {
             setReact(true);
-        } else if (e.target.id === "Three.js") {
-            setThree(true);
-        };
+        } 
     }
     const handleMouseLeave = () => {
         setHtml();
@@ -46,7 +43,6 @@ function MainPage() {
         setJs();
         setBoot();
         setReact();
-        setThree();
     };
 
     return (

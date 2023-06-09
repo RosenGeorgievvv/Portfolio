@@ -22,7 +22,7 @@ function AboutMe() {
             <br /> I graduated from the D.A.Tsvenov of Economics
             in Svishtov with a degree in Business Informatics with a
             specialization in Computer Science.
-            <img src={bee} />
+            <img src={bee} alt='' />
           </div>
         </div>
       </div>
