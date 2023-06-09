@@ -100,29 +100,31 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .description {
+    .third-rightSide .third-rightSide h1 .description {
         font-size: 1.2em;
         margin: 0px 20px 0px 20px;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 950px) {
-    .description {
+    .third-rightSide .third-rightSide h1 .description {
         font-size: 1em;
+        margin: 0px 10px 0px 80px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .description {
-        font-size: 0.8em;
-        margin: 0px 10px 0px 10px;
+   .third-rightSide .third-rightSide h1 .description {
+        font-size: 1em;
+        margin: 0px 10px 0px 60px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .description {
-        font-size: 0.7em;
-        margin: 0px 10px 0px 10px;
+   .third-rightSide .description {
+        font-size: 0.8em;
+        margin: 0px 10px 0px 30px;
     }
 }
 

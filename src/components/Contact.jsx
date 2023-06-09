@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
     
         emailjs
-          .sendForm("service_05uatyr", form.current, "K3LKm0O1UE0ej5gmF")
+          .sendForm("service_c71cin7", "template_ax0x4lq", form.current, "K3LKm0O1UE0ej5gmF")
           .then((result) => {
               console.log(result.text);
               setSuccess(true);
@@ -42,7 +42,7 @@ return (
                 <div className='contact'>
                     <span>
                         <img src={MailIcon} /> Or text me at:
-                        <a href='mailto:rosengeorgiew1@gmail.com' target='blank'>rosengeorgiew1@gmail.com</a>
+                        <a href='mailto:rosengeorgiew1@gmail.com' target='blank' rel="noopener noreferrer" >rosengeorgiew1@gmail.com</a>
                     </span>
                     
                 </div>
